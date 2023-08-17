@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+}
+#heading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    text-align: center;
+}
+#instruction{
+    text-align: center;
+}
+#compartments{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: 40%;
+    background-color: rgb(0, 0, 0,.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.red_compartment{
+    background-color: red;
+    border-top-left-radius: 200px;
+
+}
+.green_compartment{
+    background-color: green;
+    border-top-right-radius: 200px;
+}
+.blue_compartment{
+    background-color: blue;
+    border-bottom-left-radius: 200px;
+}
+.purple_compartment{
+    background-color: purple;
+    border-bottom-right-radius: 200px;
+}
+.compartment{
+    height: 100px;
+    width: 100px;
+}
+#top_compartments{
+    display: flex;
+}
+#bottom_compartments{
+    display: flex;
+}
+.active{
+    background-color: white;
+    box-shadow: 0px 0px 5px white;
+}
+.back_active{
+    background-color: rgb(95, 5, 5);
+}
